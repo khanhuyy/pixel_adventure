@@ -1,0 +1,22 @@
+[gd_scene load_steps=3 format=3 uid="uid://dmtn1us18g5d3"]
+
+[ext_resource type="Texture2D" uid="uid://bmno2jk8bdtur" path="res://Pixel Adventure 1/Free/Main Characters/Virtual Guy/Idle (32x32).png" id="1_d0rgr"]
+[ext_resource type="Texture2D" uid="uid://cxu5xuo40v55g" path="res://Pixel Adventure 1/Free/Background/Green.png" id="2_akpjo"]
+
+[node name="Panel" type="Panel"]
+offset_left = 24.0
+offset_top = 589.0
+offset_right = 1088.0
+offset_bottom = 629.0
+
+[node name="Idle(32x32)" type="Sprite2D" parent="."]
+position = Vector2(396, -161)
+texture = ExtResource("1_d0rgr")
+
+[node name="TextureRect" type="TextureRect" parent="Idle(32x32)"]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="Green" type="Sprite2D" parent="."]
+position = Vector2(83, -339)
+texture = ExtResource("2_akpjo")
